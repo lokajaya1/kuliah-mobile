@@ -56,6 +56,11 @@ class _HomePageState extends State<HomePage> {
               SizedBox(
                 height: 20,
               ),
+              AppButton(
+                text: "Logout",
+                color: Colors.red,
+                onPressed: () {},
+              ),
               AppTextField(
                 controller: keteranganController,
                 label: "Keterangan",
